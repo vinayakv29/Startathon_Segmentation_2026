@@ -45,7 +45,6 @@ To address the extreme class imbalance of desert datasets, we implemented a **We
 ## 📂 Repository Contents
 * `train_segmentation.py`: End-to-end training pipeline with DINOv2 feature alignment.
 * `test_segmentation.py`: Performance evaluation suite for 1002-sample test datasets.
-* `segmentation_head.pth`: Optimized model weights following Phase 2 fine-tuning.
 * `Report.pdf`: Comprehensive technical analysis and qualitative results.
 
 ## 🏁 How to Reproduce Results
