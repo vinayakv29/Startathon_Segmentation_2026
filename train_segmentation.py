@@ -422,8 +422,8 @@ def main():
     ])
 
     # Dataset paths (relative to script location)
-    data_dir = r"C:\Startathon_2026\Data\Offroad_Segmentation_Training_Dataset\train"
-    val_dir = r"C:\Startathon_2026\Data\Offroad_Segmentation_Training_Dataset\val"
+    data_dir = r"C:\Startathon_2026\Data\Offroad_Segmentation_Training_Dataset\Offroad_Segmentation_Training_Dataset\train"
+    val_dir = r"C:\Startathon_2026\Data\Offroad_Segmentation_Training_Dataset\Offroad_Segmentation_Training_Dataset\val"
 
     # Create datasets
     trainset = MaskDataset(data_dir=data_dir, transform=transform, mask_transform=mask_transform)
