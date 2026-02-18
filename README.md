@@ -11,8 +11,8 @@ This repository contains the official submission for the **GHR 2.0 Offroad Auton
 
 | Metric | Results | Technical Context |
 | :--- | :--- | :--- |
-| **Global Pixel Accuracy** | **78.45%** | High-precision terrain classification. |
-| **Mean IoU (mIoU)** | **0.2914** | Safety-weighted for hazard prioritization. |
+| **Global Pixel Accuracy** | **70.21%** | High-precision terrain classification. |
+| **Mean IoU (mIoU)** | **0.2932** | Safety-weighted for hazard prioritization. |
 | **Inference Latency** | **88ms** | ~11.29 FPS on mobile NVIDIA RTX 3050. |
 | **Training Efficiency** | **10 Epochs** | Rapid convergence via "Greedy" fine-tuning. |
 ## ⚖️ Safety-Critical Weighting Analysis
