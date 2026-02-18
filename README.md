@@ -53,13 +53,11 @@ To address the extreme class imbalance of desert datasets, we implemented a **We
    conda activate EDU
    pip install torch torchvision tqdm opencv-python numpy matplotlib
 
-2. Training the Model
+2. **Training the Model**:
 To replicate our high-convergence fine-tuning run:
-
-Bash
-python train_segmentation.py
-3. Final Evaluation
+   ```bash
+   python train_segmentation.py
+3. **Final Evaluation**
 To generate metrics and visualization masks for the 1002-image test set:
-
-Bash
-python test_segmentation.py
+   ```bash
+   python test_segmentation.py
